@@ -141,6 +141,31 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.slide-autm {
+ background-image: url("../img/autm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide-vitamins {
+ background-image: url("../img/vitamins.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-buttons {
+  position: absolute;
+  right:  46px;
+  bottom: 39px;
+  z-index: 9;
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.slider-button {
+  cursor: pointer;
+}
+.swiper {
+  position: relative;
+}
 .slide::before {
   position: absolute;
   content: "";
